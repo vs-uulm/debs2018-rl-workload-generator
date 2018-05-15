@@ -1,0 +1,31 @@
+{
+  "name": "debs2018-rl-workload-generator",
+  "version": "1.0.0",
+  "description": "Workload generator for shopping cart service",
+  "homepage": "https://github.com/vs-uulm/debs2018-rl-workload-generator",
+  "bugs": {
+    "url": "https://github.com/vs-uulm/debs2018-rl-workload-generator/issues"
+  },
+  "repository": "github:vs-uulm/debs2018-rl-workload-generator.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./generate.sh"
+  },
+  "author": "Benjamin Erb <benjamin.erb@uni-ulm.de> (https://uni-ulm.de/in/vs/erb)",
+  "contributors": [
+    "Dominik Meißner <dominik.meissner@uni-ulm.de> (https://uni-ulm.de/in/vs/meissner)",
+    "Benjamin Erb <benjamin.erb@uni-ulm.de> (https://uni-ulm.de/in/vs/erb)"
+  ],
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": "^9.5.0"
+  },
+  "dependencies": {
+    "faker": "^4.1.0",
+    "prob.js": "^1.0.6",
+    "random-js": "^1.0.8",
+    "shell-escape": "^0.2.0"
+  }
+}
